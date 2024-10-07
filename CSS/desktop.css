@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --morado: #5865f2;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+#barras {
+    display: none;
+}
+header {
+    background-color: var(--morado);
+    height: 80px;
+}
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+.header-div img{
+    width: 124px;
+}
+.header-div menu li{
+    list-style-type: none;
+}
+.header-div menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.space {
+    min-width: 116px;
+    display: flex;
+    margin: 0;
+}
+.login {
+    padding: 7px 16px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 24px;
+}
+.hero {
+    background-color: var(--morado);
+}
+.hero .container {
+    padding: 82px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+.hero .container h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.hero .container p {
+    color: white;
+    padding: 0 10px;
+    font-size: 17px;
+}
+.hero .container img {
+    flex: 1 1 0;
+    width: 0;
+}
+.vertical {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.information {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image .text{
+    flex: 3 0 0;
+}
+.image img {
+    flex: 2 0 0;
+    width: 0;
+}
+.video {
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.video .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+}
+.video .text h1{
+    padding-right: 60px;
+    width: 250px;
+    flex-shrink: 0;
+}
+.video .text p{
+    padding-right: 60px;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.video-container{
+    flex: 1  0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-container .video-frame {
+    position: absolute;
+    width:100%;
+    left: -3%;
+    top: -5%;
+    z-index: 0;
+    padding-bottom:74%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: var(--morado) 4px solid;
+}
+.video-container video {
+    max-width:100%;
+    z-index: 10;
+    border-radius: 40px;
+}
+.black{
+    background-color: black;
+    padding: 40px 0;
+}
+.black .container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #23272a;
+    border-radius: 40px;
+    display: flex;
+    padding: 60px 40px;
+}
+.black .container .text {
+    flex: 2 1 0;
+    margin-top: 30px;
+}
+.black h1 {
+    color: white;
+    font-weight: 400;
+    width: 60%;
+}
+.black p {
+    color: white;
+    font-weight: 400;
+    width: 90%;
+}
+.container .video-container {
+    flex: 3 1 0;
+}
+footer {
+    background-color: #23272a;
+}
+footer .footer-info {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-info .discord{
+    width: 250px;
+    padding: 30px 0;
+}
+.redes {
+    color: white;
+    display: flex;
+    gap: 20px;
+}
